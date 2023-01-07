@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Timeline from './components/TimeLine/Timeline';
+import './App.css'
+import LeftPane from './components/LeftPane/LeftPane';
+import RightPane from './components/RightPane/RightPane';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container pt-4'>
+      <div className='row'>
+        <div className='col-sm-1 col-md-3 ' id="leftPane">
+          <LeftPane />
+        </div>
+        <div className='col-sm-3  col-md-5' id="timeline">
+          <Timeline />
+        </div>
+        <div className='col-sm-1 col-md-3' id="rightPane">
+          <RightPane />
+        </div>
+      </div>
     </div>
   );
 }
