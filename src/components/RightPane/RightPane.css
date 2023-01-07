@@ -1,39 +1,38 @@
-.rightBox{
-    padding-left: 0;
+.rightBox {
+  padding-left: 0;
 }
-.inputSearch{
-    border-radius: 25px;
-    width: 80%;
-    border: none;
-    outline: none;
-    background-color: #eff3f4;
-    padding: 0.3rem;
-    padding-left: 1rem;
-    
+.inputSearch {
+  border-radius: 25px;
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: #eff3f4;
+  padding: 0.3rem;
+  padding-left: 1rem;
 }
 
 .subText {
-    font-size: 10px;
-    line-height: 11px;
-    letter-spacing: 0.2px;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: 0.2px;
 }
 
-.hashTag{
-    font-size: small;
-    font-weight: bolder;
-    letter-spacing: 0.2px;
+.hashTag {
+  font-size: small;
+  font-weight: bolder;
+  letter-spacing: 0.2px;
 }
-.profileImage{
-    /* width: 30px;
+.profileImage {
+  /* width: 30px;
     height:40px; */
-    max-width: 45px;
-    border-radius: 50%;
-    margin-right: 10px;
+  max-width: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-.follows{
-    background-color: black;
-    border-radius: 25px;
-    color: #eff3f4;
-    font-size: 12px;
-    padding: 2  px 15px;
+.follows {
+  background-color: black;
+  border-radius: 25px;
+  color: #eff3f4;
+  font-size: 12px;
+  padding: 2 px 15px;
 }

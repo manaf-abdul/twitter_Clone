@@ -1,26 +1,26 @@
 .scrollElem::-webkit-scrollbar {
-    display: none;
-  }
-.label{
+  display: none;
+}
+.label {
   font-size: small;
 }
 
-.filterButton{
-    border-radius: 25px;
-    width:4rem;
-    color: aliceblue;
-    background-color: rgb(29, 155, 240);
-    border: none;
-    margin-left:5px ;
-    /* padding: 10px; */
+.filterButton {
+  border-radius: 25px;
+  width: 4rem;
+  color: aliceblue;
+  background-color: rgb(29, 155, 240);
+  border: none;
+  margin-left: 5px;
+  /* padding: 10px; */
 }
-.date{
+.date {
   background-color: rgb(180, 213, 235);
- 
+
   border-color: rgb(29, 155, 240);
   border-width: 0;
   padding: 2px 10px;
   outline: none;
   border-radius: 25px;
-  color:white;
+  color: white;
 }
