@@ -1,3 +1,10 @@
+## Simple Twitter Clone made using React <br/>
+## Users can like and unlike tweets and it well get stored in the localstorage <br/>
+
+## User have a search filter option using that option user can filter the tweets according to an interval of start time and endtime<br/>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
