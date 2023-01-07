@@ -58,7 +58,7 @@ const Tweet = ({ tweet }) => {
                   color: isLikedByMe ? "red" : "#a2acb9",
                 }}
               />
-              {tweet.likes}
+              {isLikedByMe ? Number(tweet.likes)+1:tweet.likes }
             </button>
           </div>
           <div>
